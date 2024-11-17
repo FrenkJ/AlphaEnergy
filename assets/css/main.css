@@ -2864,3 +2864,44 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+.info-item {
+  display: flex; /* Ensure flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100%; /* Ensure it spans full height */
+  text-align: center; /* Center text inside */
+}
+
+.info-item {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  min-height: 200px; /* Prevent shrinking */
+  width: 100%; /* Ensure it fills the column width */
+  text-align: center; /* Align text properly */
+}
+
+.email-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+  transition: color 0.3s, transform 0.3s;
+}
+
+.email-link i {
+  font-size: 2rem; /* Size the envelope icon */
+  transition: color 0.3s, transform 0.3s;
+}
+
+.email-link:hover i {
+  color: #ff4500; /* Highlight icon color on hover */
+  transform: scale(1.2); /* Enlarge icon slightly */
+}
+
+.email-link:hover {
+  color: #ff4500; /* Highlight text color on hover */
+}
+
+
+
