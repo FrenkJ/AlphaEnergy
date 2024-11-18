@@ -1,6 +1,5 @@
 Thanks for downloading this template!
 
-Template Name: UpConstruction
-Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-Author: BootstrapMade.com
+Template Name: AlphaEnergy
+Author: Frenki Dilo
 License: https://bootstrapmade.com/license/
